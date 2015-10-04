@@ -1,0 +1,49 @@
+Software: Genetic Algorithm to solve Travelling Saleman Problem (TSP)
+Author: Hy Truong Son
+Major: BSc. Computer Science
+Class: 2013 - 2016
+Institution: Eotvos Lorand University
+Email: sonpascal93@gmail.com
+Website: http://people.inf.elte.hu/hytruongson/
+Final update: October 4th, 2015
+Copyright 2015 (c) Hy Truong Son. All rights reserved. Only use for academic purposes.
+
+Database
+========
+From VLSI database:
+131.dat: 131 points
+237.dat: 237 points
+343.dat: 343 points
+
+Usage
+=====
+1. Compilation:
+---------------
+$ g++ Evolutionary.cpp -o Evolutionary
+$ javac Visualization.java 
+
+2. Run (in the console, the users can choose another data file name or other parameters):
+-----------------------------------------------------------------------------------------
+$ ./Evolutionary
+Data file: 131.dat
+Number of iterations (default 100): 100
+Population size (default 1000): 1000
+Selection percent (default 30): 30
+...
+Iteration 99
+Best gene: 569.479
+
+Iteration 100
+Best gene: 569.479
+
+Saved the best current solution to file solution.dat
+
+Best solution found by Evolutionary Algorithm: 569.479
+
+3. Visualization (the output file from last step is solution.dat):
+------------------------------------------------------------------
+$ java Visualization
+Data file contains points' coordinates: 131.dat
+Solution file: solution.dat
+
+Image solution.png will be generated.
