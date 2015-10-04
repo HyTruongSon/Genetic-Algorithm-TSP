@@ -22,13 +22,16 @@ Usage
 $ g++ Evolutionary.cpp -o Evolutionary
 $ javac Visualization.java 
 
-2. Run (in the console, the users can choose another data file name or other parameters):
------------------------------------------------------------------------------------------
+* Note: in the console, the users can choose another data file name or other parameters.
+2. Run :
+--------
 $ ./Evolutionary
 Data file: 131.dat
 Number of iterations (default 100): 100
 Population size (default 1000): 1000
 Selection percent (default 30): 30
+
+Iteration 0
 ...
 Iteration 99
 Best gene: 569.479
